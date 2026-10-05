@@ -30,3 +30,11 @@ data.txt
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Local API credentials
+.env
+.env.*
+!.env.example
+
+# Generated practice output
+05-files/mail-merge/letters/*.txt

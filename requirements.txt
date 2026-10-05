@@ -1,10 +1,12 @@
-# Third-party packages used across this repo (stdlib covers the rest).
-# gui/password-manager
+# Optional packages for the later projects; basics use the standard library.
+# 04-turtle/color-palette/color_extractor.py
+colorgram.py>=1.2
+# 05-files/states-quiz
+pandas>=2.0
+# 06-desktop/password-manager
 cryptography>=42.0
 pyperclip>=1.8
-# gui/pomodoro-timer
+# 06-desktop/pomodoro-timer
 Pillow>=10.0
-# api/iss-tracker-with-alerts
+# 07-automation
 requests>=2.31
-# games/states-quiz, data/
-pandas>=2.0
