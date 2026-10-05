@@ -1,6 +1,0 @@
-Dear [name],
-
-You're invited to our Python study group on Saturday.
-Bring a project you would like to share!
-
-See you there.

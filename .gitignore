@@ -17,9 +17,12 @@ __pycache__/
 *.swp
 *.swo
 
-# Claude Code local settings
+# Local assistant settings
 .claude/
 CLAUDE.md
+.agents/
+.codex/
+.aws/
 
 # Vault / personal data — never commit credentials, encrypted or not
 data.enc
@@ -36,5 +39,6 @@ desktop.ini
 .env.*
 !.env.example
 
-# Generated practice output
-05-files/mail-merge/letters/*.txt
+# Generated example output
+utilities/mail-merge/letters/*.txt
+games/turtle/states-quiz/missing_states.csv

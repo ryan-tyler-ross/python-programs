@@ -1,12 +1,9 @@
-# Optional packages for the later projects; basics use the standard library.
-# 04-turtle/color-palette/color_extractor.py
-colorgram.py>=1.2
-# 05-files/states-quiz
-pandas>=2.0
-# 06-desktop/password-manager
-cryptography>=42.0
-pyperclip>=1.8
-# 06-desktop/pomodoro-timer
-Pillow>=10.0
-# 07-automation
-requests>=2.31
+# Optional dependencies for the entire collection.
+# Individual projects also have their own requirements.txt.
+-r automation/iss-tracker/requirements.txt
+-r desktop/password-manager/requirements.txt
+-r desktop/pomodoro-timer/requirements.txt
+-r games/turtle/states-quiz/requirements.txt
+-r graphics/color-palette/requirements.txt
+-r templates/http/requirements.txt
+-r templates/restconf/requirements.txt
